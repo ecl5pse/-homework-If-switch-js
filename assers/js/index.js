@@ -3,7 +3,7 @@
 /* ПЕРВОЕ ЗАДАНИЕ
 
 
-const userValue = prompt("Pleas input your number");
+const userValue = prompt("Pleas input your number :");
 const userNumber = +userValue;
 
 if (userNumber > 0 ){
@@ -32,7 +32,7 @@ if (userNumber > 0 ){
 /* ВТОРОЕ ЗАДАНИЕ
 
 
-const  userValue = prompt("Please enter your age");
+const  userValue = prompt("Please enter your age :");
 const userNumber = +userValue;
 
 if (userNumber < 0){
@@ -50,7 +50,7 @@ if (userNumber < 0){
 */
 
 /* ТРЕТИЕ  ЗАДАНИЕ
-const  userValue = prompt("Please enter your number");
+const  userValue = prompt("Please enter your number:");
 let userNumber = +userValue;
 
 if(userNumber >= 0 ){
@@ -61,5 +61,32 @@ if(userNumber >= 0 ){
     alert(userNumber);
 }
 */
+
+
+
+/* ЧЕТВЕРТОЕ ЗАДАНИЕ
+const  userValueHour = prompt("Please enter your Hour :");
+const  userValueMinutes = prompt("Please enter your Minutes :");
+const  userValueSecond = prompt("Please enter your Second :")
+
+const userNumberHour = +userValueHour;
+const userNumberMinutes = +userValueMinutes;
+const userNumberSecond = +userValueSecond;
+
+if( userNumberHour < 24 && userNumberHour> 0 && userNumberMinutes < 60 && userNumberMinutes > 0 && userNumberSecond < 60 && userNumberSecond > 0){
+    console.log("ok")
+}  else {
+        console.log("Please enter your number");
+      }
+
+*/
+
+
+
+
+
+
+
+
 
 
