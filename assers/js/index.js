@@ -30,6 +30,8 @@ if (userNumber > 0 ){
 
 
 /* ВТОРОЕ ЗАДАНИЕ
+
+
 const  userValue = prompt("Please enter your age");
 const userNumber = +userValue;
 
@@ -46,4 +48,18 @@ if (userNumber < 0){
 }
 
 */
+
+/* ТРЕТИЕ  ЗАДАНИЕ
+const  userValue = prompt("Please enter your number");
+let userNumber = +userValue;
+
+if(userNumber >= 0 ){
+    alert(userNumber);
+
+}else {
+    userNumber=-userNumber;
+    alert(userNumber);
+}
+*/
+
 
