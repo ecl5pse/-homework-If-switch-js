@@ -81,7 +81,29 @@ if( userNumberHour < 24 && userNumberHour> 0 && userNumberMinutes < 60 && userNu
 
 */
 
+/* ПЯТОЕ ЗАДАНИЕ
+const userValueX = prompt("Please enter your сoordinate X:");
+const userValueY = prompt("Please enter your сoordinate Y:");
 
+const  userCoordinateX = +userValueX;
+const  userCoordinateY = +userValueY;
+
+
+if ( userCoordinateX > 0 && userCoordinateY > 0   ){
+    console.log("quarter I ");
+
+} else if (userCoordinateX < 0 && userCoordinateY > 0) {
+    console.log('quarter II');
+} else if(userCoordinateX < 0 && userCoordinateY < 0){
+    console.log('quarter III');
+}else if(userCoordinateX >0 && userCoordinateY<0){
+    console.log('quarter IV');
+}else {
+    console.log('enter the correct number');
+}
+
+
+*/
 
 
 
