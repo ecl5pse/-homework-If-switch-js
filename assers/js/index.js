@@ -170,6 +170,78 @@ switch (userNumberMonth) {
 
 
 
+/* СЕДЬМОЕ ЗАДАНИЕ
+
+const userFirstValue = prompt("Please input first value");
+const mark  = prompt("Please input operation")
+const userSecondValue = prompt("Please input second value");
+
+
+const userFirstNumber=+userFirstValue;
+const userSecondNumber=+userSecondValue;
+
+
+
+
+
+
+switch (mark) {
+
+    case "+":
+        console.log(sum(userFirstNumber, userSecondNumber));
+        break;
+
+
+    case "-" :
+        console.log(sab(userFirstNumber, userSecondNumber));
+        break;
+
+    case "*" :
+        console.log(multipl(userFirstNumber, userSecondNumber));
+        break;
+
+    case "/" :
+        console.log(divis(userFirstNumber, userSecondNumber));
+        break;
+
+    default:
+        console.log("Enter number");
+        break;
+}
+
+function sum  ( firstNumber , secondNumber) {
+
+    return +firstNumber +  +secondNumber;
+
+
+}
+
+
+function sab  ( firstNumber , secondNumber) {
+
+    return firstNumber -secondNumber ;
+
+
+}
+function multipl  ( firstNumber , secondNumber) {
+
+    return firstNumber * secondNumber ;
+
+
+}
+function divis  ( firstNumber , secondNumber) {
+
+    if (secondNumber == 0){
+         return  console.log("cannot be divided by zero");
+    }else{
+            return firstNumber / secondNumber ;
+            console.log("sa");
+         }
+
+
+}
+*/
+
 
 
 
